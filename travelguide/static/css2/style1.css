@@ -1,0 +1,116 @@
+.container {
+  position: relative;
+  text-align: left;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  top: 400px;
+  left: 16px;
+}
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.ex-left {
+  position: absolute;
+  top: 600px;
+  left: 16px;
+}
+
+.ex-right {
+  position: absolute;
+  top: 600px;
+  right: 16px;
+}
+
+.ex-mid {
+  position: absolute;
+  top: 600px;
+  left: 38%;
+ transform: translate(-38%):
+}
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  top: 400px;
+  right: 16px;
+}
+
+.bottom-mid {
+  position: absolute;
+  top: 400px;
+  left: 38%;
+ transform: translate(-38%):
+}
+
+.mid-left {
+  position: absolute;
+  top: 200px;
+  left: 16px;
+}
+
+.mid-centre {
+  position: absolute;
+  top: 200px;
+  left: 38%;
+ transform: translate(-38%):
+}
+
+.mid-right {
+  position: absolute;
+  top: 200px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-centre {
+ position: absolute;
+ top: 8px;
+ left:38%;
+ transform: translate(-38%):
+}
+
+.button {
+  background-color: #5C6585; 
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 10px;}
+
+input[type=text] {
+  width: 60%;
+  padding: 5px 18px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color:#D0D7E1;
+  color: black;
+}

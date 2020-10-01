@@ -1,0 +1,176 @@
+{% load static %}
+<html>
+<head>
+ <link rel="stylesheet" href=" {% static 'css2/style1.css' %}">
+</head>
+<body>
+
+<div class="container">
+  <img src="https://img.freepik.com/free-photo/empty-sea-beach-background_74190-313.jpg?size=626&ext=jpg" alt="Snow" style="width:100%;">
+{% block content %}
+<div class="top-left">
+<h3>Phillipines</h3>
+<form action="add">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" name="num1" placeholder="Indian Rupee">
+<button class="button button1">Calculate</button>
+<br>
+ {{result1}} Philippine peso<br>
+<br>
+Note: 1 Phillippine peso = 1.50 Indian Rupee
+</form>
+</div>
+
+
+ <div class="top-right">
+<h3>Maldives</h3>
+<form action="mal">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num2">
+<button class="button button1">Calculate</button>
+<br>
+{{result2}} Maldivian Rufiyaa<br>
+    <br>
+Note: 1 Maldivian Rufiyaa = 4.90 Indian Rupee
+</form>
+ </div>
+
+    <div class="bottom-left">
+<h3>Dubai</h3>
+<form action="dub">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num7">
+<button class="button button1">Calculate</button>
+<br>
+{{result7}} Dirham<br>
+    <br>
+Note: 1 UAE Dirham = 20.65 Indian Rupee
+</form>
+ </div>
+
+<div class = "top-centre">
+<h3>Indonesia</h3>
+<form action="ind">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num3">
+<button class="button button1">Calculate</button>
+<br>
+{{result3}} Indonesian Rupiah<br>
+    <br>
+Note: 1 Indonesian Rupiah = 0.0050 Indian Rupee
+</form>
+</div>
+
+
+<div class = "mid-left">
+<h3>Sri Lanka</h3>
+<form action="sri">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num4">
+<button class="button button1">Calculate</button>
+<br>
+{{result4}} Sri Lankan Rupee<br>
+    <br>
+Note: 1 Sri Lankan Rupee = 0.40 Indian Rupee
+</form>
+</div>
+
+
+<div class = "mid-centre">
+<h3>Singapore</h3>
+<form action="sing">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num5">
+<button class="button button1">Calculate</button>
+<br>
+{{result5}} Singapore Dollar<br>
+    <br>
+Note: 1 Singapore Dollar = 53.25 Indian Rupee
+</form>
+</div>
+
+
+<div class = "mid-right">
+<h3>France</h3>
+<form action="fran">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num6">
+<button class="button button1">Calculate</button>
+<br>
+{{result6}} Euro<br>
+    <br>
+
+Note: 1 Euro = 83.24 Indian Rupee
+</form>
+</div>
+
+
+     <div class="bottom-mid">
+<h3>London</h3>
+<form action="lon">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num8">
+<button class="button button1">Calculate</button>
+<br>
+{{result8}} Pound sterling <br>
+    <br>
+Note: 1 Pound sterling  = 95.79 Indian Rupee
+</form>
+ </div>
+
+     <div class="bottom-right">
+<h3>Australia</h3>
+<form action="aus">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num9">
+<button class="button button1">Calculate</button>
+<br>
+{{result9}} Australian Dollar <br>
+    <br>
+Note: 1 Australian Dollar  = 48.68 Indian Rupee
+</form>
+ </div>
+
+ <div class="ex-left">
+<h3>Greece</h3>
+<form action="gre">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num10">
+<button class="button button1">Calculate</button>
+<br>
+{{result10}} Euro <br>
+    <br>
+Note: 1 Euro  = 84.13 Indian Rupee
+</form>
+ </div>
+
+     <div class="ex-mid">
+<h3>Italy</h3>
+<form action="itl">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num11">
+<button class="button button1">Calculate</button>
+<br>
+{{result11}} Euro <br>
+    <br>
+Note: 1 Euro  = 84.13 Indian Rupee
+</form>
+ </div>
+
+   <div class="ex-right">
+<h3>Japan</h3>
+<form action="jap">
+<label>Enter the amount in Indian Ruppee:</label><br>
+<input type="text" placeholder="Indian Rupee" name="num12">
+<button class="button button1">Calculate</button>
+<br>
+{{result12}}  Japanese Yen <br>
+    <br>
+Note: 1  Japanese Yen  = 0.71 Indian Rupee
+</form>
+ </div>
+
+</div>
+</body>
+{% endblock %}
+</html>
