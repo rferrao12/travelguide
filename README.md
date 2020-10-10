@@ -1,2 +1,2 @@
-Online web application that shows the details of various travel destination with the budget.
+An online web application that shows the details of various travel destinations along with the budget.
 
